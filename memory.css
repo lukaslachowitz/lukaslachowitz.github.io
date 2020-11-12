@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    
+}
+
+.deck{
+    width: 500px;
+    height: 500px;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.card{
+    background-color: turquoise;
+    width: auto;
+    height: auto;
+    flex: auto;
+    flex-basis: 20%;
+    margin: 2%;
+    
+}
+
