@@ -1,2 +1,6 @@
 let c = document.querySelectorAll('.card')
-console.log(c)
+for (const i of c){
+    i.addEventListener('click',function (event){
+        console.log("klick")
+    })
+}
