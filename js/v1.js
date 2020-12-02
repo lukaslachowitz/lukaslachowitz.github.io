@@ -1,6 +1,9 @@
 const numberCards = 16
 let openedCards = []
 let cardTypes=[]
+
+let counter = 0;
+
 for (let index = 0; index < numberCards/2; index++) {
     cardTypes.push(index+1)
     cardTypes.push(index+1)
@@ -30,7 +33,15 @@ function openCard(c){
                     ()=>{
                         openedCards.pop().classList.toggle('found')
                         openedCards.pop().classList.toggle('found')
+                        counter += 1
                         
+                        document.querySelector('.Score').textContent = `Paare gefunden: ${counter}`
+                        if (counter == 8 ) {
+                            alert("Du hast das Memory abgeschlossen")
+                            location.reload();
+                            
+                        }
+
                     },
                     1000
                 )
