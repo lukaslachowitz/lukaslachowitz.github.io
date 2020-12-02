@@ -3,6 +3,7 @@
     justify-content: center;
     margin-top: 5%;
     
+    
 }
 
 .deck{
@@ -14,14 +15,19 @@
 
 .card{
     background-color: turquoise;
+    color: turquoise;
     width: auto;
     height: auto;
     flex: auto;
     flex-basis: 20%;
     margin: 2%;
     
+    
+    
 }
 
 .flipped{
-    background-color: darkviolet;
+    background-color: #464647;
+
 }
+
