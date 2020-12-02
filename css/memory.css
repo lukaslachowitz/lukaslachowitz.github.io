@@ -26,3 +26,6 @@
 .flipped{
     background-color: #323133;
 }
+.found{
+    visibility: hidden;
+}

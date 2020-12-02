@@ -30,6 +30,7 @@ function openCard(c){
                     ()=>{
                         openedCards.pop().classList.toggle('found')
                         openedCards.pop().classList.toggle('found')
+                        
                     },
                     1000
                 )
