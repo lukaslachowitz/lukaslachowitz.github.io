@@ -1,9 +1,7 @@
 .container{
     display: flex;
     justify-content: center;
-    margin-top: 5%;
-    
-    
+    margin-top: 5%;   
 }
 
 .deck{
@@ -14,20 +12,17 @@
 }
 
 .card{
-    background-color: turquoise;
-    color: turquoise;
+    background-color: #744CFF;
+    color: #744CFF;
     width: auto;
     height: auto;
     flex: auto;
     flex-basis: 20%;
     margin: 2%;
-    
-    
-    
+    text-align: center;
+    line-height: 100px;  
 }
 
 .flipped{
-    background-color: #464647;
-
+    background-color: #323133;
 }
-
